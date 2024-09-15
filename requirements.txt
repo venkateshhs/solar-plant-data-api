@@ -1,0 +1,7 @@
+fastapi==0.95.0
+pandas==1.5.3   # Use a stable pandas version compatible with numpy
+numpy==1.21.6   # Use a numpy version compatible with pandas
+uvicorn==0.20.0
+sqlalchemy==1.4.41
+psycopg2-binary==2.9.5
+pydantic==1.9.0

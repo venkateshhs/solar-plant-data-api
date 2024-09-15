@@ -1,0 +1,42 @@
+2024-09-15 10:29:41,103 - INFO - Loading dataset from: C:\Users\Lenovo\Desktop\Venka Projects\solar-plant-data-api\data\dataset.csv
+2024-09-15 10:29:41,120 - INFO - Dataset loaded successfully.
+2024-09-15 10:29:41,120 - INFO - Data types of columns: 
+ID                      int64
+TEMP                  float64
+HUMIDITY              float64
+TOTAL_CLOUD_COVER     float64
+DEW_POINT             float64
+WEATHER_TYPE          float64
+AVG_WIND_SPEED        float64
+AVG_WIND_DIRECTION    float64
+GLOBAL_RADIATION      float64
+ZENITH                float64
+ELEVATION             float64
+AZIMUTH               float64
+TIMESTAMP              object
+TARGET                float64
+dtype: object
+2024-09-15 10:29:41,121 - INFO - Converting TIMESTAMP to datetime format.
+2024-09-15 10:29:41,135 - INFO - Checking for missing data.
+2024-09-15 10:29:41,137 - INFO - Missing data per column: 
+ID                      0
+TEMP                   20
+HUMIDITY               20
+TOTAL_CLOUD_COVER      54
+DEW_POINT              20
+WEATHER_TYPE           26
+AVG_WIND_SPEED         20
+AVG_WIND_DIRECTION     19
+GLOBAL_RADIATION        0
+ZENITH                  0
+ELEVATION               0
+AZIMUTH                 0
+TIMESTAMP               0
+TARGET                102
+dtype: int64
+2024-09-15 10:29:41,137 - INFO - Dropping rows where TIMESTAMP or ID is missing.
+2024-09-15 10:29:41,138 - INFO - Cleaning wind-related data.
+2024-09-15 10:29:41,142 - INFO - Renaming columns for consistency.
+2024-09-15 10:29:41,143 - INFO - Saving cleaned dataset to: C:\Users\Lenovo\Desktop\Venka Projects\solar-plant-data-api\data\cleaned_dataset.csv
+2024-09-15 10:29:41,242 - INFO - Cleaned dataset saved successfully.
+2024-09-15 10:29:41,242 - INFO - Data cleaning process completed successfully.
